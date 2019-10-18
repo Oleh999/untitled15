@@ -1,3 +1,3 @@
-module.exports.user = require('./users');
-module.exports.house = require('./houses');
+module.exports.user = require('./user');
+module.exports.house = require('./house');
 module.exports.token = require('./token');

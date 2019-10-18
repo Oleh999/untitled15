@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
         const findAll = await HouseModel.findAll();
 
         if (!findAll.length) {
-            throw new Error('houses not found');
+            throw new Error('house not found');
         }
 
         res.json(findAll);

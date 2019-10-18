@@ -1,3 +1,3 @@
-module.exports.housesService = require('./housesService');
-module.exports.usersService = require('./usersService');
-module.exports.authService = require('./authService');
+module.exports.housesService = require('./house');
+module.exports.usersService = require('./user');
+module.exports.authService = require('./auth');

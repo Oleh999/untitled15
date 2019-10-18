@@ -19,9 +19,9 @@ app.set('views',path.join(__dirname,'static'));
 
 let { usersRouter, authRouter,housesRouter } = require('./router');
 
-app.use('/users',usersRouter);
+app.use('/user',usersRouter);
 app.use('/auth',authRouter);
-app.use('/houses',housesRouter);
+app.use('/house',housesRouter);
 
 app.all('*',(req,res)=>{
     res.json('404 NOT FOUND' );

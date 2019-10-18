@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
         const findAll = await UserModel.findAll();
 
         if (!findAll.length) {
-            throw new Error('users not found');
+            throw new Error('user not found');
         }
 
         res.json(findAll);
