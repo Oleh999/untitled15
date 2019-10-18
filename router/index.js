@@ -1,3 +1,3 @@
-module.exports.usersRouter = require('./usersRouter');
-module.exports.housesRouter = require('./housesRouter');
-module.exports.authRouter = require('./authRouter');
+module.exports.usersRouter = require('./user');
+module.exports.housesRouter = require('./house');
+module.exports.authRouter = require('./auth');
